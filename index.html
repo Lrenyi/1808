@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>飞机大战</title>
+	<style type="text/css">
+		#map {
+			width: 320px;
+			height: 568px;
+			position: relative;
+			margin: 50px auto;
+			overflow: hidden;
+		}
+		#start {
+			width: 320px;
+			height: 568px;
+			background: url(images/start_bg.png);
+		}
+		#game {
+			width: 320px;
+			height: 568px;
+			background: url(images/bg.png);
+			position: relative;
+		}
+
+		#fighter {
+			width: 66px;
+			height: 80px;
+			position: absolute;
+			top: 0;
+			left: 0;
+			background: url(images/self.gif);
+		}
+	</style>
+</head>
+<body>
+	<div id="map">
+		<div id="start"></div>
+		<div id="game">
+			<div id="fighter"></div>
+		</div>
+	</div>
+
+	<script src="dist/bundle.js"></script>
+</body>
+</html>
